@@ -35,7 +35,7 @@ def main():
 def writeYaml(file, content):
 	# print("write")
 	# print(content)
-	with open(f"./sv/{file}", 'w+', encoding='utf-8') as f:
+	with open(f"./{LANGUAGE}/{file}", 'w+', encoding='utf-8') as f:
 		yaml.dump(content, f, allow_unicode=True)
 
 
